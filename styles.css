@@ -9,6 +9,27 @@
   --white: #ffffff;
   --max-width: 1200px;
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: 2px 2px 10px var(--primary-color); 
+}
+
+::-webkit-scrollbar-track {
+  background: var(--text-gray);
+  border-radius:2px; 
+}
+
+
 * {
   margin: 0;
   padding: 0;
